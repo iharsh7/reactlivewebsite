@@ -1,0 +1,144 @@
+.active-link{
+    color: red;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100vw;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.logo img{
+    height: 62px;
+    margin-left: 53px;
+}
+.logo{
+    /* border: 1px solid orangered; */
+    width: 27%;
+}
+.content{
+    /* border: 1px solid orangered; */
+    width: 50%;
+    height: 40px;
+    display: flex;
+    gap: 38px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+
+}
+.content a{
+    color: whitesmoke;
+    font-size: 19px;
+    font-weight: 500; 
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    transition: 0.2s;
+}
+.content a:hover{
+    color: yellow;
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+.extra{
+    /* border: 1px solid orangered; */
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    /* width: 130px; */
+    /* height: 51px; */
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 22px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+    padding-right: 19px;
+    transition: 0.2s;
+}
+.btn:hover{
+    cursor: pointer;
+    border: 1.9px solid white;
+    background-color:yellow ;
+    /* color: white; */
+    transform: scale(1.1);
+}
+.btn img{
+    height: 15px;
+}
+@media screen and (max-width:720px) {
+    .content a{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .btn{
+        font-size: 8px;
+        padding: 6px;
+        width: 70px;
+
+    }
+    .btn img{
+        height: 11px;
+    }
+    .logo{
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* border: 1px solid ; */
+    }
+    .logo img{
+        height: 31px;
+        /* display: none; */
+        
+    }
+
+}
+@media screen and (max-width:500px){
+.logo img{
+    margin-left: -3px;
+}
+.logo{
+    /* border: 1px solid; */
+    width: 10%;
+}
+.nav{
+    gap: 10px;
+}
+.content{
+    /* border: 1px solid; */
+    margin-left: 1px;
+    display: flex;
+    gap: 17px;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    width: 70%;
+}
+.content a{
+    margin: px;
+}
+.extra{
+    width: 12%;
+    /* border: 1px solid; */
+}
+}
+.active{
+    color: yellow;
+}

@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.intro{
+    /* border: 2px solid white; */
+
+
+    height: 92vh;
+    display: flex;
+    padding-left: 58px;
+    /* z-index: -1; */
+    position: relative;
+    /* justify-content: space-evenly; */
+}
+.leftintro{
+    /* border: 1px solid blanchedalmond; */
+
+
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+width: 49%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+font-size: 25px;
+padding: 5px;
+/* z-index: -1; */
+    
+}
+.leftintro p{
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+.rightintro{
+    /* border: 1px solid blanchedalmond; */
+
+
+    width: 46.5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* background: url('./assets/pngwing.com\ \(3\).png'); */
+    animation-name: intro;
+    animation-duration: 9s;
+    /* animation-delay: 0.3s;    z-index: -1; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes intro {
+    0%{
+        background: url('./assets/pngwing.com\ \(1\).png');
+        background-position: top;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* size: 0.8rem; */
+        height: 90%;
+        /* background-size: 400px; */
+    }
+    50%{
+        background: url('./assets/pngwing.com\ \(2\).png');
+        background-position: top;
+        background-size: cover;
+
+        /* height: 350px; */
+        height: 90%;
+        
+    }
+    100%{
+        background: url('./assets/pngwing.com\ \(3\).png');
+        background-position: top;
+        background-size: cover;
+        /* height: 350px; */
+        height: 90%;
+
+    }
+}
+
+.hlo{
+    /* border: 1px solid wheat; */
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+.iam{
+    /* border: 1px solid wheat; */
+    /* font-family: roboto; */
+    width: 100%;
+
+}
+.iam span{
+    color: yellow;
+    font-weight: 600;
+}
+.occupation{
+    /* border: 1px solid wheat; */
+    height: 65px;
+    width: 100%;
+
+
+}
+.para{
+    /* border: 1px solid wheat; */
+    width: 100%;
+    line-height: 1.3rem;
+
+}
+.para p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.Resume{
+    /* border: 1px solid springgreen; */
+    width: 100%;
+    padding: 2px;
+}
+.resumebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    gap: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.resumebtn:hover{
+    background-color: yellow;
+    transform: scale(1.02);
+}
+.resumebtn img{
+    height: 19px;
+}
+.rightintro img{
+    height: 100px;
+    /* padding-top: 0px; */
+    /* margin-top: -60px; */
+    top: -4rem;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+@media screen and (max-width:700px) {
+    .rightintro{
+       display: none;
+       /* width: 500px; */
+    }
+    .leftintro{
+        width: 95%;
+        background: url('./assets/pngwing.com\ \(3\).png');
+        background-position: center;
+        background-size: cover;
+
+    }
+    .leftintro h1{
+        font-size: 20px;
+    }
+
+}

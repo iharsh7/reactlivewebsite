@@ -1,0 +1,186 @@
+.about{
+    min-height: 80vh;
+    width: 90vw;
+    margin: auto;
+    /* border: 1px solid wheat; */
+    margin-top: 81px;
+}
+.me{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+    /* font-family: 'Poppins' !important; */
+
+}
+.paraa{
+    /* border: 1px solid white; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    /* font-size: 1px; */
+    text-align: center;
+}
+
+.paraa p {
+    /* color: black; */
+    /* margin-top: 20px; */
+    font-size: 14px !important;
+    font-weight: lighter !important;
+    line-height: 1.5rem;
+}
+.profile{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.div1{
+    display: flex;
+    /* border: 1px solid white; */
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 14px;
+    gap: 12px;
+    transition: 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+@media screen and (max-width:720px) {
+    .div1{
+        width: 100%;
+    }
+}
+.div1:hover{
+    background: rgb(30, 30, 30);
+    /* color: yellow; */
+    /* cursor: pointer; */
+}
+.childdiv1 img{
+    height: 49px;
+    /* padding: ; */
+    object-fit: cover;
+}
+.childdiv1{
+    z-index: 1;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    
+    
+
+}
+.childdiv2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6rem;
+}
+.childdiv2 h2{
+    font-size: 18px;
+}
+.childdiv2 p{
+    font-size: 12px;
+    font-weight: lighter;
+    /* border: 1px solid; */
+    margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:650px) {
+    .about{
+        width: 85.5%;
+        margin-left: 60px;
+    }
+}
