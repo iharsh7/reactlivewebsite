@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/reactlivewebsite/static/css/main.67659d52.css",
+    "main.js": "/reactlivewebsite/static/js/main.b763d233.js",
+    "static/media/image.png": "/reactlivewebsite/static/media/image.00cdf3615da8d4c54ace.png",
+    "static/media/portfolio-6.png": "/reactlivewebsite/static/media/portfolio-6.4a10fac7d271e87859e9.png",
+    "static/media/portfolio-2.png": "/reactlivewebsite/static/media/portfolio-2.33d06b368b4e6395030e.png",
+    "static/media/portfolio-4.png": "/reactlivewebsite/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
+    "static/media/portfolio-1.png": "/reactlivewebsite/static/media/portfolio-1.b33adf772d54ab33e953.png",
+    "static/media/portfolio-5.png": "/reactlivewebsite/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
+    "static/media/portfolio-3.png": "/reactlivewebsite/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/Chatz-logos.png": "/reactlivewebsite/static/media/Chatz-logos.8faa64b7d6a08a6a54f3.png",
+    "static/media/pngwing.com (1).png": "/reactlivewebsite/static/media/pngwing.com (1).7794a70b93b36825d4c3.png",
+    "static/media/linkedin.png": "/reactlivewebsite/static/media/linkedin.96f263b6d0d76cd2f38e.png",
+    "static/media/pngwing.com (3).png": "/reactlivewebsite/static/media/pngwing.com (3).2757e86a42bf5dbf0dd8.png",
+    "static/media/pngwing.com (2).png": "/reactlivewebsite/static/media/pngwing.com (2).44fa822a5610e772f99a.png",
+    "static/media/pngwing.com.png": "/reactlivewebsite/static/media/pngwing.com.dc7dfaea03c42c4a7f55.png",
+    "static/media/instagram.png": "/reactlivewebsite/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/reactlivewebsite/index.html",
+    "main.67659d52.css.map": "/reactlivewebsite/static/css/main.67659d52.css.map",
+    "main.b763d233.js.map": "/reactlivewebsite/static/js/main.b763d233.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67659d52.css",
+    "static/js/main.b763d233.js"
+  ]
+}
